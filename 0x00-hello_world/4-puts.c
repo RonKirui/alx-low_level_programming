@@ -4,7 +4,7 @@
  *
  * main - Entry point
  *
- * Return: return 0 on success
+ * Return: Always 0 (Success)
  *
  *
  *
