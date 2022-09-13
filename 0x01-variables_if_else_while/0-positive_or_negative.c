@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - checks whether a random value is positive. negative or zero and prints the outcome
- * 
+ * main - checks whether a random value is positive,
+ * 	negative or zero and prints the outcome
+ *
  * Return:return value is always 0
  *
  */
@@ -11,8 +12,8 @@
 int main(void)
 {
 	int n;
-
-	srand(time(0));	
+	
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
